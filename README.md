@@ -8,6 +8,6 @@ http://localhost:9091/user/register
 Login API:
 http://localhost:9091/user/login
 
-For running user module:
+For running user module(Frontend):
 npm install
 ng serve
