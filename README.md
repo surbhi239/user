@@ -1,5 +1,8 @@
 To run this project, make schema in database with the name 'userdetailsandauth'.
 
+For running userdetails(back end) module:
+mvn spring-boot:run
+
 userdetails module consist of REST API's:
 
 Register API:
