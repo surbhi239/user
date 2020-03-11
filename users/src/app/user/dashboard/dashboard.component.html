@@ -1,0 +1,7 @@
+<div class="container box">
+    <app-user-thumnail *ngFor="let User of allUser" [user]="User" (updateUsers)="updateFromUsers($event)" (deleteUsers)="deleteFromUser($event)" ></app-user-thumnail>
+    <button type="button" class="btn btn-secondary btn-lg" (click)="addUser()">Add</button>
+</div>
+<div class="container box1">
+<app-doughnut></app-doughnut>
+</div>

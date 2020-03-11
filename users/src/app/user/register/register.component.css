@@ -1,0 +1,27 @@
+.form-container{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+form{
+    margin: auto;
+    background-color: #EEEEEE;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.m-20{
+    margin-bottom: 20px;
+}
+.isInvalid{
+    border: red;
+}
+.box{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+<form [formGroup]="loginForm" class="form-container">
+  <h1 class="text-center">Login Yourself!</h1>
+  <div class="container box">
+<input type="text" class="form-control" id="email" placeholder="Email" formControlName="email">
+<input type="text" class="form-control" id="password" placeholder="Password" formControlName="password" >
+<button type="button" class="btn btn-secondary btn-lg text-center" (click)="login()" [disabled]="!loginForm.valid">Login</button>
+</div>
+</form>
